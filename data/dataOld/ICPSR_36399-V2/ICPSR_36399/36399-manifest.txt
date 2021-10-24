@@ -1,0 +1,241 @@
+File Manifest for ICPSR 36399
+
+United States Department of Justice. Federal Bureau of Investigation.
+Uniform Crime Reporting Program Data: County-Level Detailed Arrest and
+Offense Data, United States, 2014. ICPSR36399-v2. Ann Arbor, MI: Inter-
+university Consortium for Political and Social Research [distributor],
+2016-08-05. http://doi.org/10.3886/ICPSR36399.v2
+
+Details on the version history can be found below the file listings.
+
+
+Study-level Documentation
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36399-descriptioncitation.pdf       -       -         -       2018-05-25  -
+
+    36399-related_literature.txt        -       -         -       daily       -
+
+    36399-manifest.txt                  -       -         -       daily       -
+
+    36399-Codebook.pdf                  -       -         -       2017-09-12  69d51afe4680924e7415976011a71e2e
+
+
+DS0001 Arrests, All Ages
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36399-0001-Data.dta                 -       3,177     56      2017-09-12  b486d7c1be6d713e9117b955942498da
+
+    36399-0001-Data.rda                 -       3,177     56      2017-09-12  78fa4065beaeb85c0f21a381f0635b98
+
+    36399-0001-Data.sav                 -       3,177     56      2017-09-12  5ac1a1f2408761fd28205ffbb9efc28e
+
+    36399-0001-Data.stc                 -       3,177     56      2017-09-12  ebd8b64abc8988fd54a9e6dfa8940270
+
+    36399-0001-Data.tsv                 -       3,177     56      2017-09-12  5a9cd7c65ae54c37dacd5b3d77df8e62
+
+    36399-0001-Data.txt                 246     3,177     56      2017-09-12  f5dcc21758f296c08b15bcb967afab4a
+
+    36399-0001-Setup.dct                -       -         -       2017-09-12  adacf3acce3cba71bda1df2789bb5d77
+
+    36399-0001-Setup.do                 -       -         -       2017-09-12  f5f64aa34c7cb8a83ad4807e315f871f
+
+    36399-0001-Setup.sas                -       -         -       2017-09-12  bff6dd1e24a2e827263c85926ad84a4c
+
+    36399-0001-Setup.sps                -       -         -       2017-09-12  17f7a8124dc719c9491671ced9ae11a1
+
+
+DS0002 Arrests, Adult
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36399-0002-Data.dta                 -       3,177     56      2017-09-12  3b48a9a184aba68dac433c481e62845a
+
+    36399-0002-Data.rda                 -       3,177     56      2017-09-12  8f0281b38cbf87cc92a7797b827295f8
+
+    36399-0002-Data.sav                 -       3,177     56      2017-09-12  bbdab4cc95d945a80b093c5a3e814756
+
+    36399-0002-Data.stc                 -       3,177     56      2017-09-12  a1ef3c2219b0863123f67133dd2a79d0
+
+    36399-0002-Data.tsv                 -       3,177     56      2017-09-12  51188e6127cb4c135d81d57e17a88a05
+
+    36399-0002-Data.txt                 246     3,177     56      2017-09-12  307158c92b37a44e7e5abc498e7b4edb
+
+    36399-0002-Setup.dct                -       -         -       2017-09-12  66e75d591af3b809a5f2f66681da8a60
+
+    36399-0002-Setup.do                 -       -         -       2017-09-12  15e2fb9f73a95c22918aa626f822f683
+
+    36399-0002-Setup.sas                -       -         -       2017-09-12  1210d5006b259e4561fba7da3e215128
+
+    36399-0002-Setup.sps                -       -         -       2017-09-12  ae6a4f4875b0ab446317ffaad1995a6f
+
+
+DS0003 Arrests, Juveniles
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36399-0003-Data.dta                 -       3,177     56      2017-09-12  8f3e65eeb2f92758f5f0c0e7ca2c3112
+
+    36399-0003-Data.rda                 -       3,177     56      2017-09-12  f03aafab252b0f1fe4a36972f2949cbd
+
+    36399-0003-Data.sav                 -       3,177     56      2017-09-12  d71fcdb9321f66db1afbbf9b0daaca1d
+
+    36399-0003-Data.stc                 -       3,177     56      2017-09-12  2baa4455577897b1bf240f28be9cb831
+
+    36399-0003-Data.tsv                 -       3,177     56      2017-09-12  fd0e9ba898a110abef68d45fe52768b7
+
+    36399-0003-Data.txt                 246     3,177     56      2017-09-12  d1f8a87871345d1c4e90a8b1aa14feb9
+
+    36399-0003-Setup.dct                -       -         -       2017-09-12  ebf6868fbb0a3ccd7fcd8a1d602c8db3
+
+    36399-0003-Setup.do                 -       -         -       2017-09-12  891665e8896d421ca5b458ed1e0e4ac9
+
+    36399-0003-Setup.sas                -       -         -       2017-09-12  2472315ba2e94b1312e284cd5de7df11
+
+    36399-0003-Setup.sps                -       -         -       2017-09-12  5821f957ec474019000ccb874a2e0bb1
+
+
+DS0004 Crimes Reported
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36399-0004-Data.dta                 -       3,177     21      2016-08-01  5a7f7c03aaf12f333fed3367f6ea5b39
+
+    36399-0004-Data.rda                 -       3,177     21      2016-08-01  4215d695d6e511aca805533cd68afd86
+
+    36399-0004-Data.sav                 -       3,177     21      2016-08-01  deaf06c3fdbb13b9ebb1730470d61b85
+
+    36399-0004-Data.stc                 -       3,177     21      2016-08-01  c837dd8d9a7f6de3a7a4cae233f1f677
+
+    36399-0004-Data.tsv                 -       3,177     21      2016-08-01  bbd31da54c0beaf938444005dfbad0c2
+
+    36399-0004-Data.txt                 97      3,177     21      2016-08-01  d2d5b6ccade88c4b4f1a225ddd02e374
+
+    36399-0004-Setup.dct                -       -         -       2016-08-01  f54d64de602437ac3bfb92fcbd349712
+
+    36399-0004-Setup.do                 -       -         -       2016-08-01  bc111c51fcf85f64135f4872d1c5b2cf
+
+    36399-0004-Setup.sas                -       -         -       2016-08-01  26cf2d9ade71db25aa0ebefb4feb3b90
+
+    36399-0004-Setup.sps                -       -         -       2016-08-01  35e2603056cb3ffcc78c598b48e1d2cf
+
+
+DS0005 Allocated Statewide Data for Arrests, All Ages
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36399-0005-Data.dta                 -       3,177     57      2017-09-12  89312ea3b1e7193c9e519bced0b3a2fa
+
+    36399-0005-Data.rda                 -       3,177     57      2017-09-12  ec45a46915e448f82bacd5fd57cf8f71
+
+    36399-0005-Data.sav                 -       3,177     57      2017-09-12  a2a179614a47e3e1dfbefb5dd780efc9
+
+    36399-0005-Data.stc                 -       3,177     57      2017-09-12  bd8e98a4bb0dd4d9863bb8e9708599d1
+
+    36399-0005-Data.tsv                 -       3,177     57      2017-09-12  6af7c322c00953127796e2b6df360f2e
+
+    36399-0005-Data.txt                 250     3,177     57      2017-09-12  0d24339bb40456778653dc20694c714f
+
+    36399-0005-Setup.dct                -       -         -       2017-09-12  df8e2be96b61ddd5cc402f8a24d84424
+
+    36399-0005-Setup.do                 -       -         -       2017-09-12  f52b27d8f2f9db44faf3770e833a7920
+
+    36399-0005-Setup.sas                -       -         -       2017-09-12  7df331e30359944cd858679c9b656d45
+
+    36399-0005-Setup.sps                -       -         -       2017-09-12  ab81e3b64c7853c5ed7fe4d124fff4b0
+
+
+DS0006 Allocated Statewide Data for Arrests, Adults
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36399-0006-Data.dta                 -       3,177     57      2017-09-12  a6a75325f289173da72aa48f7367345b
+
+    36399-0006-Data.rda                 -       3,177     57      2017-09-12  7e09c49de20c32df9d5f656d15d5aed0
+
+    36399-0006-Data.sav                 -       3,177     57      2017-09-12  e12c10afc40c996ee4082d5008a271d5
+
+    36399-0006-Data.stc                 -       3,177     57      2017-09-12  f85a8323ef6cc3ec28f3993f7a88a9ee
+
+    36399-0006-Data.tsv                 -       3,177     57      2017-09-12  7b015da0b1ff933aa468dab9d04ce420
+
+    36399-0006-Data.txt                 250     3,177     57      2017-09-12  dd6d903d20ca13832187b6cd0b190fee
+
+    36399-0006-Setup.dct                -       -         -       2017-09-12  ae9f46ccce51184049ad4a1a28aa912c
+
+    36399-0006-Setup.do                 -       -         -       2017-09-12  3b49dccea0f667ebed3fbabeafa29185
+
+    36399-0006-Setup.sas                -       -         -       2017-09-12  f5673470997bbca51881ebabdf2fa01c
+
+    36399-0006-Setup.sps                -       -         -       2017-09-12  51a9ad3cfcec9c96dedfb43800a7fc52
+
+
+DS0007 Allocated Statewide Data for Arrests, Juveniles
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36399-0007-Data.dta                 -       3,177     57      2017-09-12  ad1509b41436a7711ba431c92d43d8b8
+
+    36399-0007-Data.rda                 -       3,177     57      2017-09-12  454f5c33641da5d0abb2e4079e9532ad
+
+    36399-0007-Data.sav                 -       3,177     57      2017-09-12  978f056a6cc2b19f437aa33db44535b4
+
+    36399-0007-Data.stc                 -       3,177     57      2017-09-12  d51d44ce6d63517d5f683b86434d2e77
+
+    36399-0007-Data.tsv                 -       3,177     57      2017-09-12  deb5f8ee0277e4c1464157014d2e3972
+
+    36399-0007-Data.txt                 250     3,177     57      2017-09-12  b6fa49f5378cbfc11327098a1da2ebd2
+
+    36399-0007-Setup.dct                -       -         -       2017-09-12  a84f53a67919710c84c9d15d044c4f70
+
+    36399-0007-Setup.do                 -       -         -       2017-09-12  c26dfebac43317e8a149ba4677d9d277
+
+    36399-0007-Setup.sas                -       -         -       2017-09-12  05a9c787cadc3fbd11e0510d937ea28e
+
+    36399-0007-Setup.sps                -       -         -       2017-09-12  1acbb7976f8e08ab071b801daa52dc25
+
+
+DS0008 Allocated Statewide Data for Crimes Reported
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    36399-0008-Data.dta                 -       3,177     22      2016-08-08  077b47865a75e82506e241475b88033c
+
+    36399-0008-Data.rda                 -       3,177     22      2016-08-08  91b0d04380be7dc8a874eebfd33fcf21
+
+    36399-0008-Data.sav                 -       3,177     22      2016-08-08  f7d504356f3700f9f39aea3b96472a72
+
+    36399-0008-Data.stc                 -       3,177     22      2016-08-08  d8d4be573a302bdb7ef0d8b810cc3ba7
+
+    36399-0008-Data.tsv                 -       3,177     22      2016-08-08  1afa082512ef3f98e100a0f6eafdaf12
+
+    36399-0008-Data.txt                 105     3,177     22      2016-08-08  2755c6bf965ed1632e728652d701246e
+
+    36399-0008-Setup.dct                -       -         -       2016-08-08  9ca3f057aa70e8032cca01b07d430805
+
+    36399-0008-Setup.do                 -       -         -       2016-08-08  c378fe13d156594173da63b76531ddbe
+
+    36399-0008-Setup.sas                -       -         -       2016-08-08  4ca3454f7a77969285f74fdf1491c365
+
+    36399-0008-Setup.sps                -       -         -       2016-08-08  e12fd6d2d245fd9e4e1ec236b79ad514
+
+
+Version History
+
+2017-09-12 Arrest data for the counties of Bronx, Kings, New York, Queens,
+and Richmond in the state of New York are blanked by ICPSR due to
+discrepancies in the original data.  2016-12-19 Arrest data for Carroll
+County in Indiana are updated.  2016-08-08 Data are updated for variable
+AG_OFF in Part 8: Allocated Statewide Data for Crimes Reported.  2016-08-05
+A change is made to Part 8: Allocated Statewide Data for Crimes Reported.
