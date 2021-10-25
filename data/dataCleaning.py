@@ -117,9 +117,10 @@ for line in gdp.readlines():
     if i == 5:
         break
     lineSplit = line.split(',')
+    print(lineSplit)
     # hard code the DC case
     if lineSplit[0] == 'DC':
-        fipsMap[11001].append(int(lineSplit[4].replace('"','').replace(',','')))
+        fipsMap[11001].append(float(lineSplit[4].replace('"','').replace(',','')))
     elif lineSplit[-1] == '--\n':
         currState = lineSplit[0]
         comb = False
@@ -136,7 +137,7 @@ for line in gdp.readlines():
                     pair = (locale.lower()+' county', 'VA')
                 else:
                     pair = (locale.lower(), 'VA')
-                fipsMap[countyFipsMap[pair]].append(int(lineSplit[4].replace('"','').replace(',','')))
+                fipsMap[countyFipsMap[pair]].append(float(lineSplit[4].replace('"','').replace(',','')))
         else:
             try:
                 if currState == 'LA':
@@ -144,13 +145,13 @@ for line in gdp.readlines():
                 else:
                     pair = (lineSplit[0].lower()+' county', currState)
                     print(pair)
-                fipsMap[countyFipsMap[pair]].append(int(lineSplit[4].replace('"','').replace(',','')))
+                fipsMap[countyFipsMap[pair]].append(float(lineSplit[4].replace('"','').replace(',','')))
             except:
                 pair = (lineSplit[0].lower(), currState)
-                fipsMap[countyFipsMap[pair]].append(int(lineSplit[4].replace('"','').replace(',','')))
+                fipsMap[countyFipsMap[pair]].append(float(lineSplit[4].replace('"','').replace(',','')))
     # i += 1
 gdp.close()
-data = []
+data = [['FIPS','(CTY,ST)','%UNEMPLOYED','%LESSHS','%HS','%SOMECOLL','%COLLEGEHIGHER','POPEST2019','VIOLCRIMECT','AVG_PHYS_UNHEALTHY_DAYS','AVG_MENT_UNHEALTHY_DAYS','RGDP2019']]
 for key in fipsMap:
     if len(fipsMap[key]) == 12:
         data.append(fipsMap[key])
