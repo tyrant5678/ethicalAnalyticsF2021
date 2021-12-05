@@ -96,9 +96,20 @@ for line in health.readlines():
     # 14 18
     physUn = float(lineSplit[14])
     mentUn = float(lineSplit[18])
+    print(lineSplit[-23])
+    airQual = ('No data')
+    numAssoc = int(lineSplit[-34])
+    sevHous = int(lineSplit[-19])
+    try:
+        airQual = float(lineSplit[-23])
+    except:
+        pass
     try:
         fipsMap[ctyFips].append(physUn)
         fipsMap[ctyFips].append(mentUn)
+        fipsMap[ctyFips].append(airQual)
+        fipsMap[ctyFips].append(numAssoc)
+        fipsMap[ctyFips].append(sevHous)
     except:
         pass
     i+=1
@@ -109,7 +120,7 @@ first = True
 i = 0
 currState = ''
 comb = False
-print(countyFipsMap)
+# print(countyFipsMap)
 for line in gdp.readlines():
     if first:
         first = False
@@ -117,7 +128,7 @@ for line in gdp.readlines():
     if i == 5:
         break
     lineSplit = line.split(',')
-    print(lineSplit)
+    # print(lineSplit)
     # hard code the DC case
     if lineSplit[0] == 'DC':
         fipsMap[11001].append(float(lineSplit[4].replace('"','').replace(',','')))
@@ -126,7 +137,7 @@ for line in gdp.readlines():
         comb = False
         continue
     elif lineSplit[0] == 'Combination areas1':
-        print("hi")
+        # print("hi")
         comb = True
     else:
         # this deals with virginia's wacky combination areas
@@ -144,18 +155,18 @@ for line in gdp.readlines():
                     pair = (lineSplit[0].lower()+' parish', currState)
                 else:
                     pair = (lineSplit[0].lower()+' county', currState)
-                    print(pair)
+                    # print(pair)
                 fipsMap[countyFipsMap[pair]].append(float(lineSplit[4].replace('"','').replace(',','')))
             except:
                 pair = (lineSplit[0].lower(), currState)
                 fipsMap[countyFipsMap[pair]].append(float(lineSplit[4].replace('"','').replace(',','')))
     # i += 1
 gdp.close()
-data = [['FIPS','(CTY,ST)','%UNEMPLOYED','%LESSHS','%HS','%SOMECOLL','%COLLEGEHIGHER','POPEST2019','VIOLCRIMECT','AVG_PHYS_UNHEALTHY_DAYS','AVG_MENT_UNHEALTHY_DAYS','RGDP2019']]
+data = [['FIPS','(CTY,ST)','%UNEMPLOYED','%LESSHS','%HS','%SOMECOLL','%COLLEGEHIGHER','POPEST2019','VIOLCRIMECT','AVG_PHYS_UNHEALTHY_DAYS','AVG_MENT_UNHEALTHY_DAYS','AVG_DAILY_PM25','NUM_ASSOC','RGDP2019']]
 for key in fipsMap:
-    if len(fipsMap[key]) == 12:
+    if len(fipsMap[key]) == 15:
         data.append(fipsMap[key])
-print(data)
+# print(data)
 data_out = open('clean_data.txt','w')
 for point in data:
     for j in range(len(point)):
