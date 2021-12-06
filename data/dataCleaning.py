@@ -162,7 +162,7 @@ for line in gdp.readlines():
                 fipsMap[countyFipsMap[pair]].append(float(lineSplit[4].replace('"','').replace(',','')))
     # i += 1
 gdp.close()
-data = [['FIPS','(CTY,ST)','%UNEMPLOYED','%LESSHS','%HS','%SOMECOLL','%COLLEGEHIGHER','POPEST2019','VIOLCRIMECT','AVG_PHYS_UNHEALTHY_DAYS','AVG_MENT_UNHEALTHY_DAYS','AVG_DAILY_PM25','NUM_ASSOC','RGDP2019']]
+data = [['FIPS','(CTY,ST)','%UNEMPLOYED','%LESSHS','%HS','%SOMECOLL','%COLLEGEHIGHER','POPEST2019','VIOLCRIMECT','AVG_PHYS_UNHEALTHY_DAYS','AVG_MENT_UNHEALTHY_DAYS','AVG_DAILY_PM25','NUM_ASSOC','%_SEV_HOUS','RGDP2019']]
 for key in fipsMap:
     if len(fipsMap[key]) == 15:
         data.append(fipsMap[key])
